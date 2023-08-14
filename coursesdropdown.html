@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes and Papers</title>
+  <link rel="stylesheet" href="styledropdown.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Get Your Notes Here!</h1>
+    <div id="dropdown-container">
+      <div class="dropdown">
+        <div class="select">
+          <span class="selected">College</span>
+          <div class="caret"></div>
+        </div>
+        <ul class="menu">
+          <li class="active">Medicaps</li>
+          <li>IPS Academy</li>
+          <li>Acropolis</li>
+          <!-- Add more college options as needed -->
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <div class="select">
+          <span class="selected">Year</span>
+          <div class="caret"></div>
+        </div>
+        <ul class="menu">
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <!-- Add more year options as needed -->
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <div class="select">
+          <span class="selected">Type</span>
+          <div class="caret"></div>
+        </div>
+        <ul class="menu">
+          <li class="active">Notes</li>
+          <li>PYQ</li>
+          <li>Assignment</li>
+          <li>MST 1</li>
+          <li>MST 2</li>
+          <li>End Sem</li>
+          <!-- Add more semester options as needed -->
+        </ul>
+      </div>
+    </div>
+
+  
+
+    <div class="button-div">
+      <button id="submitBtn">Submit</button>
+    </div>
+
+    <div id="coursesList">
+      <!-- The list of matching courses will be displayed here -->
+    </div>
+  </div>
+
+  <script src="scriptdropdown.js"></script>
+</body>
+</html>
